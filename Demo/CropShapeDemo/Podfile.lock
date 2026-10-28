@@ -1,0 +1,16 @@
+PODS:
+  - CropShape (1.0.0)
+
+DEPENDENCIES:
+  - CropShape (from `../..`)
+
+EXTERNAL SOURCES:
+  CropShape:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  CropShape: 8979fd39a06822e4d463d740cf96be54b409654a
+
+PODFILE CHECKSUM: 739e38b41bb2cb92982b144e75c3de5ebc5b7dae
+
+COCOAPODS: 1.16.2

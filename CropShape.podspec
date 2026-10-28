@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CropShape'
-  s.version      = '1.0.0'
+  s.version      = '2.0.0'
   s.summary      = 'Crop an image to a specified shape.'
   s.description  = 'Swift library that crops a UIImage to a specified shape.'
   s.homepage     = 'https://github.com/finolaire/CropShape'
@@ -11,5 +11,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
   s.source_files = 'Sources/**/*.swift'
-  s.frameworks = 'UIKit'
+  s.resource_bundles = {
+    'CropShape' => ['Resources/en.lproj/*.strings', 'Resources/zh-Hans.lproj/*.strings']
+  }
+  s.frameworks = 'UIKit', 'SwiftUI'
 end
